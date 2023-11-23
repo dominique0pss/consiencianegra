@@ -1,0 +1,105 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/27/07/19/black-and-white-1282260_1280.jpg);
+
+}
+p{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.tds {
+
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+
+
+}
+h1{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.mexer {
+    
+    margin-right: 59%;
+
+
+}
+
+.mexer img {
+    width: 210px;
+    height: 200px;
+}
+
+.texto1  {
+    color: aliceblue;
+    width: 50vw;
+    
+
+}
+
+
+
+.texto2 p{
+    color: #ffffff;
+    float: left;
+}
+
+.texto3 p {
+    color: #ffffff;
+    float: left;
+}
+
+.texto4 p {
+    color: #ffffff;
+    float: left;
+}
+
+h1{
+    color: #ffffff;
+}
+
+
+
+.texto1:hover{
+    background: #ffffff4f;
+    color: #ffffff;
+   
+  
+}
+
+.texto2:hover{
+    background: #ffffff4f;
+    color: #ff0000;
+    animation-name: ds;
+    animation-direction: alternate-reverse;
+}
+
+
+.texto3:hover{
+    background: #ffffff4f;
+    color: #000000;
+}
+
+.texto4:hover{
+    background: #ffffff4f;
+    color: black;
+}
+
+
+.mexer:hover{
+text-decoration: underline;
+}
+
+h1:hover{
+    text-decoration: underline 1px;
+    text-transform: uppercase;
+    text-decoration-color: rgba(0, 255, 255, 0.432);
+}
